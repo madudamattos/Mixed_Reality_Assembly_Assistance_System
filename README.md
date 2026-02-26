@@ -2,7 +2,9 @@
 
 This repository contains the source code and assets for the **Augmented Tangram**, a Mixed Reality (MR) application designed to simulate an assisted manual assembly task using a Tangram as a study case. The system utilizes the **Meta Quest 3** headset to track physical Tangram pieces in real-time. It provides procedural assistance, instantaneous validation, and audio-visual feedback to reduce the user's mental workload and enhance engagement during assembly. This work was developed as part of an undergraduate research project at the HCS Laboratory, Federal University of Espírito Santo (Ufes).
 
-https://github.com/user-attachments/assets/c279fe57-6ebc-4b6e-a8e5-fe047b876430
+
+https://github.com/user-attachments/assets/d880be02-b17b-474e-8729-05e395291a27
+
 
 ---
 
