@@ -2,6 +2,8 @@
 
 This repository contains the source code and assets for the **Augmented Tangram**, a Mixed Reality (MR) application designed to simulate an assisted manual assembly task using a Tangram as a study case. The system utilizes the **Meta Quest 3** headset to track physical Tangram pieces in real-time. It provides procedural assistance, instantaneous validation, and audio-visual feedback to reduce the user's mental workload and enhance engagement during assembly. This work was developed as part of an undergraduate research project at the HCS Laboratory, Federal University of Espírito Santo (Ufes).
 
+https://github.com/user-attachments/assets/c279fe57-6ebc-4b6e-a8e5-fe047b876430
+
 ---
 
 ## 🛠️ Technical Architecture
@@ -69,7 +71,13 @@ Users can access a **"Hint" (DICA) button** via natural hand gestures. Interacti
 
 Map the environment using the Quest 3's native spatial mapping system. Make sure there is exactly **one object with the "table" anchor** in the scene. This step is optional but highly recommended.
 
-**Step 2 — In-App Calibration**
+**Step 2 — Tracking Verification**
+
+Before proceeding, look closely at each physical Tangram piece and verify that its virtual counterpart (digital twin) is correctly overlapping the physical piece and tracking its movement accurately. **All pieces must be checked** to ensure correct tracking across the full set.
+
+> ⚠️ If any piece is missing its digital twin, or if the virtual overlay appears significantly misaligned with the physical piece, it is recommended to **close and restart the application** before continuing.
+
+**Step 3 — In-App Calibration**
 
 Launch the application. It will start in the internal calibration stage. Use the following controls to position the setup correctly on the table:
 
@@ -82,7 +90,7 @@ Launch the application. It will start in the internal calibration stage. Use the
 | **Button X** | Move the template up |
 | **Button Y** | Move the template down |
 
-**Step 3 — Finish Calibration**
+**Step 4 — Finish Calibration**
 
 Set the controllers down on a surface and press the black **"CALIBRATION"** button with one of your hands to complete the calibration process.
 
